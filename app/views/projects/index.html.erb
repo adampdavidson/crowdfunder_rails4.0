@@ -1,0 +1,10 @@
+<h1>Listing Projects</h1>
+
+<% @projects.each do |project| %>
+	<div class="project">
+		<li> Title: <%= project[:title] %> </li>
+<!-- 		<li> Teaser: <%= project.teaser %> </li>
+		<li> Description: <%= project.description %> </li>
+		<li> Goal: $<%= project.goal.to_f %> </li> -->
+	</div><br>
+<% end %>
